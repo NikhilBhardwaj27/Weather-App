@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dynamic Pages</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div class="container">      
+        {{>header}}
+        <form id="form" type="submit" >
+            <input class="input" type="text" placeholder="Enter Location" name="inp"/>
+            <button class="button">Submit</button>
+        </form>
+        <h2 id="message-1"></h2>
+        <h2 id="message-2"></h2>
+    </div>
+    {{>footer}}
+    
+    <script src="/js/index.js"></script>
+</body>
+</html>
