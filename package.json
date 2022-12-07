@@ -9,7 +9,7 @@
   "author": "Nikhil",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^3.1.0",
     "hbs": "^4.0.6",
     "view-engine": "^1.1.1"
